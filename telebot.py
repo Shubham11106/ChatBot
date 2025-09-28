@@ -15,7 +15,7 @@ load_dotenv()
 # NEW DEEPSEEK CLIENT SETUP
 client = OpenAI(
     api_key=os.getenv("Deepseek_API_Key"),
-    base_url="https://api.deepseek.com"  # DeepSeek endpoint
+    base_url="https://api.deepseek.com"  
 )
 
 reference = Reference()
